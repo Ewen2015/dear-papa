@@ -1101,6 +1101,7 @@ svg {
   line-height: 1.2;
   letter-spacing: -0.01em;
   text-wrap: balance;
+  word-break: keep-all;
 }
 
 .page-lede {
@@ -2851,18 +2852,20 @@ svg {
   }
 
   .month-strip {
-    display: flex;
-    gap: 4px;
-    overflow-x: auto;
-    padding-bottom: 6px;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 18px 8px;
   }
 
   .month-pill {
-    flex: 0 0 62px;
+    min-width: 0;
   }
 
   .month-pill-track {
-    height: 72px;
+    height: 56px;
+  }
+
+  .month-pill-days {
+    font-size: 8px;
   }
 
   .month-index {
@@ -2934,12 +2937,18 @@ svg {
   }
 
   .month-nav {
-    display: flex;
-    overflow-x: auto;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
   }
 
   .month-nav-item {
-    flex: 0 0 54px;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  .month-nav-item:nth-child(6n) {
+    border-right: 0;
+  }
+
+  .month-nav-item:nth-last-child(-n + 6) {
     border-bottom: 0;
   }
 
