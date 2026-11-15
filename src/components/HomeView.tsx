@@ -36,7 +36,7 @@ export function HomeView() {
             放回一年里的 <em>365</em> 天。
           </h1>
           <p className="hero-lede">
-            《亲爱的老爸》不是一本按顺序读完就算的书。我们把书里的
+            《亲爱的老爸》不是一本按顺序读完就算的书。我们把书里的{' '}
             {archive.meta.totalLetters} 封信按「月—日」叠进同一个 365
             天的骨架：哪一天有人写信、哪一年写了什么，点开就能看见。
           </p>
