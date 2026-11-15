@@ -14,7 +14,7 @@ export function SiteFooter() {
         </p>
         <p className="footer-source">
           数据来自《{archive.meta.title}》，{archive.meta.publisher}，{archive.meta.edition}。
-          仅作个人阅读与研究，不对外分发全文。
+          仅作个人阅读与研究；文字版权归原作者与出版方。
         </p>
         <a className="footer-top" href={href('/about')}>
           关于这个项目 →

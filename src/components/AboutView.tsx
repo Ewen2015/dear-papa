@@ -232,8 +232,8 @@ export function AboutView() {
           </div>
         </div>
         <p className="source-copy">
-          仓库为私有，全文仅作个人阅读与研究，不对外分发。本站代码与结构化数据由 Vite + React +
-          TypeScript 构建；解析脚本见 <code>scripts/parse-book.mjs</code>，可运行{' '}
+          仓库公开，文字版权归原作者与出版方所有；本站仅作个人阅读与研究，不替代原书。代码与结构化数据由
+          Vite + React + TypeScript 构建；解析脚本见 <code>scripts/parse-book.mjs</code>，可运行{' '}
           <code>npm run parse</code> 重新生成 <code>src/data/letters.json</code>。
         </p>
         <p className="source-mark" aria-hidden="true">
