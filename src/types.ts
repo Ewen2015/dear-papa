@@ -47,7 +47,6 @@ export interface ArchiveMeta {
   publisher: string
   edition: string
   source: string
-  generatedAt: string
   totalLetters: number
   fatherSonLetters: number
   introLetters: number

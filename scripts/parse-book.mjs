@@ -449,7 +449,6 @@ const payload = {
     publisher: '上海译文出版社',
     edition: '2024 年 9 月，ISBN 9787532796298',
     source: 'data/source/dear-papa.txt',
-    generatedAt: new Date().toISOString(),
     totalLetters: letters.length,
     fatherSonLetters: fatherSon.length,
     introLetters: letters.length - fatherSon.length,
